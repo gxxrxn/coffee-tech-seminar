@@ -1,0 +1,62 @@
+.About {
+    width: 100%;
+    height: 100vh;
+    overflow-y: hidden;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F9F9F9 20.83%);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+}
+
+.content {
+    padding-top: 10vh;
+    z-index: 1;
+}
+
+.content .coffee-txt {
+    font-size: 16px;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 1px;
+}
+
+.content h1 {
+    font-size: 3rem;
+}
+
+.content .description {
+    font-size: 18px;
+    padding-top: 3vh;
+}
+
+.skill-area {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.skill {
+    min-width: 10%;
+    margin-right: 8%;
+}
+
+.no-margin {
+    margin: 0 !important;
+}
+
+.bg-circle {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.circle {
+    width: 100%;
+}
