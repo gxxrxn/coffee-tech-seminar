@@ -3,11 +3,7 @@
     height: 100vh;
     overflow-y: hidden;
     background: linear-gradient(180deg, #FFFFFF 0%, #F9F9F9 20.83%);
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    top: 0;
+    position: relative;
 }
 
 .content {
