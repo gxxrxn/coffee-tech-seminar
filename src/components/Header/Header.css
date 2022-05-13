@@ -1,5 +1,5 @@
 .header {
-    position: relative;
+    position: absolute;
     font-family: 'Visuelt Pro';
     display: flex;
     width: 100vw;
