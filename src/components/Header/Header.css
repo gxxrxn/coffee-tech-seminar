@@ -1,0 +1,53 @@
+.header{
+    font-family: 'Visuelt Pro';
+    display: flex;
+    width: 100vw;
+    height: 8vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo{
+    height : 2vh;
+    padding-left: 12%;
+}
+
+.header-link-list{
+    display: flex;
+    list-style: none;
+    width: 9%;
+    padding-right: 12%;    
+}
+.header-link-list-element{
+    list-style: none;
+    width:30%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.header-link{
+    color: black;
+    position: relative;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.header-link::after{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    content: '';
+    width: 100%;
+    border-bottom: 2px solid rgb(52, 52, 52);
+    height: 1px;
+    transform: translateY(-15px);
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.header-link:hover::after{
+    opacity: 1;
+    transform: translateY(2px);
+}
