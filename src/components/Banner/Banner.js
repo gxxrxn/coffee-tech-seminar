@@ -13,7 +13,7 @@ const Banner = () => {
             <div className="banner-text">
                 <h1>coffee tech<br/> seminar.</h1>
                 <div>front-end tech seminar by<br/> team coffee based in cnu econovation</div>
-                <h3><img alt="youtube link" src={youtube_logo}/> 2022.06.21 pm 7</h3>
+                <h3><img className="youtube-logo-img"alt="youtube link" src={youtube_logo}/> 2022.06.21 pm 7</h3>
             </div>
             <img className="hatch-circle-img" alt="hatch-circle" src={hatch_circle} />
             <img className="gray-circle-img" alt="circle" src={circle}/>
