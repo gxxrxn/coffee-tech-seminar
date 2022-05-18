@@ -1,30 +1,34 @@
-.header{
+.header {
+    position: relative;
     font-family: 'Visuelt Pro';
     display: flex;
     width: 100vw;
     height: 8vh;
     justify-content: space-between;
     align-items: center;
+    z-index: 1;
 }
 
-.header-logo{
-    height : 2vh;
+.header-logo {
+    height: 2vh;
     padding-left: 12%;
 }
 
-.header-link-list{
+.header-link-list {
     display: flex;
     list-style: none;
     width: 9%;
-    padding-right: 12%;    
+    padding-right: 12%;
 }
-.header-link-list-element{
+
+.header-link-list-element {
     list-style: none;
-    width:30%;
+    width: 30%;
     padding-left: 15%;
     padding-right: 15%;
 }
-.header-link{
+
+.header-link {
     color: black;
     position: relative;
     text-decoration: none;
@@ -33,8 +37,8 @@
     font-size: 20px;
 }
 
-.header-link::after{
-    position:absolute;
+.header-link::after {
+    position: absolute;
     bottom: 0;
     left: 0;
     display: block;
@@ -47,7 +51,7 @@
     transition: all 0.5s;
 }
 
-.header-link:hover::after{
+.header-link:hover::after {
     opacity: 1;
     transform: translateY(2px);
 }
