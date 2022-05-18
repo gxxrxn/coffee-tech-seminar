@@ -1,0 +1,16 @@
+.banner{
+    height:100vh;
+}
+.hatch-circle-img{
+    height: 100px;
+}
+.gray-circle-img{
+    width: 100px;
+    height: 100px;
+}
+
+.code-icon-img{
+    z-index: 0;
+    height: 100px;
+}
+
