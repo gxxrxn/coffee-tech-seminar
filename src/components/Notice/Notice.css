@@ -8,8 +8,8 @@
     height: auto;
     color: #ffffff;
     background-color: #141414;
-
 }
+
 
 .notice-links-box{
     display: flex;
@@ -25,7 +25,12 @@
     margin: 0px 10px 0px 10px;
     color: white;
     background-color: #414141;
-    border-radius: 11px;
-    
+    border-radius: 11px;   
+    transition: all 0.3s ease-in-out;
+}
+
+.link-item:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
 }
 
