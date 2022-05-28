@@ -1,10 +1,9 @@
-import logo from "./logo.svg";
 import Header from "./components/Header/Header.js";
 import About from "./components/About/About.js";
 import Session from "./components/Session/Session.js";
+import Notice from "./components/Notice/Notice.js";
 
 import "./App.css";
-import Header from "./components/Header/Header";
 
 function App() {
   return (
@@ -12,6 +11,7 @@ function App() {
       <Header />
       <About />
       <Session />
+      <Notice />
     </div>
   );
 }
