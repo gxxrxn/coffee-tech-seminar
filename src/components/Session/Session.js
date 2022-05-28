@@ -39,6 +39,7 @@ const Session = () => {
               className={
                 idx === data.length - 1 ? "seminar no-border" : "seminar"
               }
+              key={idx}
             >
               <div className="contents">
                 <div className="info">
