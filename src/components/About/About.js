@@ -17,9 +17,9 @@ const About = () => {
           <br />
           스터디팀이 전하는 기술 이야기
         </h1>
-        <p class="description">
-          <b>Coffee Tech Seminar</b>는 team Coffee 팀원들이 프론트엔드를
-          개발하고
+        <p className="description">
+          <strong>Coffee Tech Seminar</strong>는 team Coffee 팀원들이
+          프론트엔드를 개발하고
           <br />
           공부하며 알게된 다양한 지식들을 나누고자 시작한{" "}
           <b>프론트엔드 테크 세미나</b>입니다.
