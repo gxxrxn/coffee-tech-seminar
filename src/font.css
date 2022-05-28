@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "VisueltPro";
+  font-weight: 300;
+  src: url("./fonts/VisueltPro-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "VisueltPro";
+  font-weight: 700;
+  src: url("./fonts/VisueltPro-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 300;
+  src: url("./fonts/Pretendard-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 700;
+  src: url("./fonts/Pretendard-Bold.ttf") format("truetype");
+}

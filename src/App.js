@@ -4,6 +4,7 @@ import Session from "./components/Session/Session.js";
 import Notice from "./components/Notice/Notice.js";
 
 import "./App.css";
+import "./font.css";
 
 function App() {
   return (
