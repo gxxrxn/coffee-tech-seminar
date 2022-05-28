@@ -1,0 +1,101 @@
+.Session {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Session .flex-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Session .subtitle {
+    width: 75%;
+    position: relative;
+    font-size: 18px;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 1px;
+}
+
+.Session ul {
+    padding: 0;
+}
+
+.Session li {
+    list-style: none;
+}
+
+.Session p {
+    margin: 0;
+}
+
+.Session .seminar-list {
+    width: 100%;
+    height: inherit;
+}
+
+.Session .seminar {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 0.5px rgb(170, 170, 170);
+}
+
+.Session .seminar:hover {
+    background-color: #F4F4F4;
+}
+
+.Session .seminar .contents {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+}
+
+.Session .seminar .contents .info {
+    width: 88%;
+}
+
+.Session .seminar .contents .info .title {
+    font-size: 27px;
+    font-weight: 700;
+    margin: 0;
+    padding-top: 1vh;
+}
+
+.Session .seminar .contents .youtube {
+    width: 10%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    /* background-color: #fff; */
+    border-radius: 10px;
+    padding: 1%;
+}
+
+.Session .seminar .contents .youtube img {
+    width: 50px;
+    height: fit-content;
+    margin-right: 10px;
+}
+
+.Session .seminar .contents .youtube p {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.no-border {
+    border-bottom: 0 !important;
+}
