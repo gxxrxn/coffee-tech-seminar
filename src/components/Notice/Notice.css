@@ -1,7 +1,4 @@
-
 .notice{
-    position: absolute;
-    bottom: 0%;
     display: flex;
     background-image: url("./img/background.png");
     background-size: 100% 100%;
@@ -17,7 +14,6 @@
 .notice h1{
     text-align: center;
 }
-
 
 .notice-links-box{
     display: flex;
