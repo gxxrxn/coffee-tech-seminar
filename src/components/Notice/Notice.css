@@ -1,0 +1,36 @@
+.notice{
+    padding: 100px 0px 100px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+    color: #ffffff;
+    background-color: #141414;
+}
+
+
+.notice-links-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding : 30px 0px 30px 0px;
+    margin : 50px 0px 100px 0px;
+}
+
+.link-item{
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    margin: 0px 10px 0px 10px;
+    color: white;
+    background-color: #414141;
+    border-radius: 11px;   
+    transition: all 0.3s ease-in-out;
+}
+
+.link-item:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
