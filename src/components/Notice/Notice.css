@@ -1,13 +1,21 @@
+
 .notice{
-    padding: 100px 0px 100px 0px;
+    position: absolute;
+    bottom: 0%;
     display: flex;
+    background-image: url("./img/background.png");
+    background-size: 100% 100%;
+    background-color: black;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: auto;
+    height: 92vh;
     color: #ffffff;
-    background-color: #141414;
+}
+
+.notice h1{
+    text-align: center;
 }
 
 
@@ -16,17 +24,30 @@
     justify-content: center;
     align-items: center;
     padding : 30px 0px 30px 0px;
-    margin : 50px 0px 100px 0px;
+    margin : 100px 0px 100px 0px;
 }
 
 .link-item{
+    
     text-decoration: none;
     padding: 10px 20px 10px 20px;
-    margin: 0px 10px 0px 10px;
+    margin: 0px 25px 0px 25px;
     color: white;
     background-color: #414141;
-    border-radius: 11px;   
+    border-radius: 11px;
     transition: all 0.3s ease-in-out;
+}
+
+.link-item-img{
+    width: 14px;
+    height: 14px;
+    margin: 0 auto;
+    padding: 0px 10px 0px 10px;
+}
+
+.link-text{
+    margin: 0 auto;
+    font-size: 18px;
 }
 
 .link-item:hover{
