@@ -1,23 +1,29 @@
-import { useState } from 'react';
+import { useState } from "react";
 import team_coffee_logo from "../img/team_coffee_logo.png";
 
 import "./Header.css";
-import NavList from './NavList';
+import NavList from "./NavList";
 
 const Header = () => {
-    const [isNavVisable, setIsNavVisable] = useState(true);
+  const [isNavVisable, setIsNavVisable] = useState(true);
 
-    const onClick = () => {
-        setIsNavVisable(!isNavVisable);
-    }
-    return (
-        <div className="header">
-            <img className="header-logo" src={team_coffee_logo} alt="team coffe logo" />
-            <button className="hamburger-button" onClick={onClick}>hamburger</button>
+  const onClick = () => {
+    setIsNavVisable(!isNavVisable);
+  };
+  return (
+    <div className='header'>
+      <img
+        className='header-logo'
+        src={team_coffee_logo}
+        alt='team coffe logo'
+      />
+      <button className='hamburger-button' onClick={onClick}>
+        hamburger
+      </button>
 
-        {isNavVisable && <NavList />}
-        </div>
-    );
-}
+      <NavList isNavVisable={isNavVisable} />
+    </div>
+  );
+};
 
 export default Header;
